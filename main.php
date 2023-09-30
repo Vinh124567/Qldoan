@@ -41,12 +41,16 @@
             include("student/add.php");
         } elseif ($tam =='editstudent'){
             include("student/edit.php");
+
+
         }elseif($tam=='project'){
             include("project/index.php");
         }elseif ($tam =='addproject'){
             include("project/add.php");
         } elseif ($tam =='editproject'){
             include("project/edit.php");
+
+
         }elseif($tam=='user'){
             include("user/index.php");
         }elseif ($tam =='adduser'){
@@ -55,6 +59,16 @@
             include("user/edit.php");
         }elseif ($tam =='search'){
             include("project/search.php");
+        }
+
+        elseif ($tam =='dsdetai'){
+            include("dsdetai/index.php");
+        }
+        elseif ($tam =='adddetai'){
+            include("dsdetai/add.php");
+        }
+        elseif ($tam =='editdetai'){
+            include("dsdetai/edit.php");
         }
         else {
             include("dashboard.php");
